@@ -572,14 +572,91 @@ gap: 16px;
 
     background-color: #31d0aa;}
 
+.footer-sibsribe{
+    display: flex;
+    flex-direction:column;
+    margin-left: 80px;
+}
 .foter-social-contenair-titel{
+    display: block;
 color: #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
+    
 
+}
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+.footer-input-title{
+    color:  #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing:0.02em;
+        margin-bottom: 16px;
+
+}
+.footer-form-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid  #FFF;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);0.15);
+    background-color: transparent;
+    outline: transparent;
+    padding: 0 24px;
+    color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 0.04em;
+}
+
+.footer-form-input::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
+.footer-form-btn {
+    /*padding: 17px 32px 18px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 100px;
+    background-color: #fd9222;
+    border: none;*/
+    display: block;
+    color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        border-radius: 4px;
+        text-align: center;
+        background-color: #4D5AE5;
+        padding-left:24px;
+        padding-top: 8px; 
+        padding-bottom: 8px;
+        padding-right: 24px;
+        width: 165px;
+        height: 40px;
+        margin-right: 16px;
+        position: relative;
+}
+.footer-form-btn-icon{
+    fill: #fff;
+    position: absolute;
+    right: 24px;
 }
  /*=====================*/
  .backdrop {
