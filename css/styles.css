@@ -704,7 +704,9 @@ color: #FFF;
      font-size: 12px;
  }
 .modal-form-btn-psision{
-
+/*display: block;
+justify-content: center;*/
+margin-left: 119px;
 }
  .modal-form-btn {
      padding: 16px 32px;
@@ -716,7 +718,7 @@ color: #FFF;
      background-color: #4D5AE5;
      border: none;
      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-   
+
  }
 
  .input-wrap {
