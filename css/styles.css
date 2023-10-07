@@ -324,8 +324,6 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  .container-team-list-item-text{
 padding-top: 32px;
 padding-bottom: 32px;
-/*justify-content: center;
- align-items: center;*/
  }
  .container-team-list-item{
 
@@ -333,11 +331,7 @@ padding-bottom: 32px;
  
 .team-list-item {
     background-color: #fff;
-   /* display:flex;*/
         padding-bottom: 0px;
-       /* flex-direction: column;
-        justify-content: center;
-        align-items: center;*/
         border-radius: 0px 0px 4px 4px;
     box-shadow:0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -419,8 +413,6 @@ padding-bottom: 32px;
    display: flex;
     padding: 32px 16px;
     flex-direction: column;
-       /* width: calc((100% - 48px) / 3);
-        justify-content: center;*/
         border: 1px solid #E7E9FC;
          border-top: none;
          border-radius:0px 0px 4px 4px ;
@@ -711,16 +703,21 @@ color: #FFF;
      color: #6a5c75;
      font-size: 12px;
  }
-
+.modal-form-btn-psision{
+display: block;
+margin-left: auto;
+}
  .modal-form-btn {
-     padding: 14px 40px;
+     padding: 16px 32px;
      color: #fff;
      font-size: 14px;
      font-weight: 600;
      line-height: normal;
-     border-radius: 100px;
-     background-color: #fd9222;
+     border-radius: 4px;
+     background-color: #4D5AE5;
      border: none;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+     margin-right: 120px;
  }
 
  .input-wrap {
@@ -798,7 +795,9 @@ color: #FFF;
      justify-content: center;
      fill: transparent;
  }
-
+.check-text-box-link{
+    margin-left: 6px;
+}
  .modal-check:checked+.check-text>.check-text-box {
      background-color: #4D5AE5;
      border: none;
