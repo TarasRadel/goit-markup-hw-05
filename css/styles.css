@@ -628,14 +628,6 @@ color: #FFF;
 }
 
 .footer-form-btn {
-    /*padding: 17px 32px 18px;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: normal;
-    border-radius: 100px;
-    background-color: #fd9222;
-    border: none;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -665,6 +657,7 @@ color: #FFF;
    width: 24px; 
    height: 24px;
    fill: #fff;
+   margin-left: 16px;
 }
  /*=====================*/
  .backdrop {
