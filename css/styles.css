@@ -718,6 +718,7 @@ color: #FFF;
 .modal-btn:focus{
     border: none;
     background-color: #404BBF;
+    fill: #ffffff;
 }
 
  .modal-btn-icon {
