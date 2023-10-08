@@ -794,11 +794,6 @@ color: #FFF;
      color: #6a5c75;
      font-size: 12px;
  }
-.modal-form-btn-psision{
-/*display: block;
-justify-content: center;*/
-margin-left: 119px;
-}
  .modal-form-btn {
      display: block;
     min-width: 169px;
@@ -817,8 +812,10 @@ margin-left: 119px;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+margin-left: auto;
+margin-right:auto ;
+}
 
- }
 .modal-form-btn:active,
 .modal-form-btn:hover{
     background-color:#404BBF ;
