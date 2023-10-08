@@ -800,13 +800,18 @@ justify-content: center;*/
 margin-left: 119px;
 }
  .modal-form-btn {
+     display: block;
+    min-width: 169px;
+    height: 56px;
      padding: 16px 32px;
      color: #fff;
-     font-size: 14px;
-     font-weight: 600;
-     line-height: normal;
+     font-size: 16px;
+     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
      border-radius: 4px;
      background-color: #4D5AE5;
+    cursor: pointer;
      border: none;
      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition-property: background-color;
