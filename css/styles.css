@@ -879,7 +879,7 @@ border-color: #4D5AE5;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     display: flex;
     align-items: center;
     position: relative;
@@ -951,7 +951,7 @@ border-color: #4D5AE5;
     color: #4D5AE5;
 }
 
-.check-text-box {
+/*.check-text-box {
     display: block;
     width: 20px;
     height: 20px;
@@ -962,7 +962,7 @@ border-color: #4D5AE5;
     align-items: center;
     justify-content: center;
     fill: transparent;
-}
+}*/
 
 .modal-check:checked+.check-text>.check-text-box {
     background-color: #4D5AE5;
