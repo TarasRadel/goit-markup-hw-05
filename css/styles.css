@@ -727,6 +727,7 @@ color: #FFF;
 .modal-btn-icon:hover,
 .modal-btn-icon:active,
 .modal-btn-icon:focus {
+    fill:transparent;
     fill: #ffffff;
 }
 
