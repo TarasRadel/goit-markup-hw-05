@@ -830,7 +830,7 @@ margin-right:auto ;
      position: relative;
  }
 
- .modal-label {
+ /*.modal-label {
      display: block;
      color: #8E8F99;
      line-height: normal;
@@ -839,7 +839,7 @@ margin-right:auto ;
     font-weight: 400;
         line-height: 1.17;
         letter-spacing: 0.04em;
- }
+ }*/
 
  .modal-icon {
      position: absolute;
