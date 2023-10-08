@@ -651,12 +651,14 @@ color: #FFF;
         width: 165px;
         height: 40px;
         margin-right: 16px;
-        position: relative;
+        
+      
 }
 .footer-form-btn-icon{
-    fill: #fff;
-    position: absolute;
-    right: 24px;
+   display: block;
+   width: 24px; 
+   height: 24px;
+   fill: #fff;
 }
  /*=====================*/
  .backdrop {
@@ -855,7 +857,7 @@ margin-left: 119px;
 
  .check-text {
     color: #8E8F99;
-        font-style: normal;
+    font-style: normal;
         font-weight: 400;
         line-height: 1.17;
         letter-spacing: 0.04;
@@ -870,11 +872,11 @@ margin-left: 119px;
 
  .check-text-box {
      display: block;
-     width: 20px;
-     height: 20px;
+     width: 16px;
+     height: 16px;
      border-radius: 6px;
      border: 1px solid rgba(17, 17, 17, 0.14);
-     margin-right: 12px;
+     margin-right: 8px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -883,12 +885,11 @@ margin-left: 119px;
 .check-text-box-link{
     margin-left: 6px;
 }
- .modal-check:checked+.check-text>.check-text-box {
+ .modal-check:checked +.check-text > .check-text-box {
      background-color: #4D5AE5;
      border: none;
-     fill: #ffffff;
+   fill: #ffffff;
  }
-
  /* .check-text:before {
   content: '';
   width: 40px;
@@ -916,6 +917,7 @@ margin-left: 119px;
 .modal-check:checked + .check-text::after {
   transform: translate(18px);
 } */
+/*======================================*/
 .check-text {
     color: rgba(64, 64, 64, 0.6);
     font-size: 14px;
@@ -948,8 +950,8 @@ margin-left: 119px;
     border: none;
     fill: #ffffff;
 }
-
-/* .check-text:before {
+/*===================================*/
+ /*.check-text:before {
   content: '';
   width: 40px;
   height: 22px;
@@ -975,4 +977,4 @@ margin-left: 119px;
 
 .modal-check:checked + .check-text::after {
   transform: translate(18px);
-} */
+} 
