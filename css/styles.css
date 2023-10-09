@@ -717,7 +717,7 @@ color: #FFF;
 .modal-btn:active,
 .modal-btn:focus{
     border: none;
-    background-color: #404BBF;
+    background-color: #404bbf;;
     fill: #ffffff;
 }
 
@@ -912,7 +912,7 @@ border-color: #4D5AE5;
     margin-left: 6px;
 }
  .modal-check:checked +.check-text > .check-text-box {
-     background-color: #404bbf;;
+     background-color: #404bbf;
      border: none;
    fill: #F4F4FD;
  }
