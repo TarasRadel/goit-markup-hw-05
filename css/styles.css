@@ -832,17 +832,6 @@ margin-right:auto ;
      position: relative;
  }
 
- /*.modal-label {
-     display: block;
-     color: #8E8F99;
-     line-height: normal;
-   
-    font-size: 12px;
-    font-weight: 400;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
- }*/
-
  .modal-icon {
      position: absolute;
      fill: #2e2f42;
@@ -878,7 +867,7 @@ border-color: #4D5AE5;
      line-height: normal;
      letter-spacing: -0.02em;
  }
-.modal-check-container{
+.modal-field{
     margin-bottom: 24px;
 }
  .check-text {
