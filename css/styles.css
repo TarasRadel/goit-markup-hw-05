@@ -870,6 +870,9 @@ border-color: #4D5AE5;
 .modal-check-container{
     margin-bottom: 16px;
 }
+ .modal-field-check{
+    margin-bottom: 24px;
+ }
  .check-text {
     color: #8e8f99;
     font-size: 12px;
