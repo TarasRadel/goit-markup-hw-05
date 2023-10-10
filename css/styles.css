@@ -730,12 +730,7 @@ color: #FFF;
  .modal-btn:focus >.modal-btn-icon {
      fill: #ffffff;
  }
-/*.modal-btn-icon:hover,
-.modal-btn-icon:active,
-.modal-btn-icon:focus {
-    fill:transparent;
-    fill: #ffffff;
-}*/
+
 
  .modal-title {
      text-align: left;
@@ -878,7 +873,7 @@ border-color: #4D5AE5;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
+    
     align-items: center;
     position: relative;
  }
