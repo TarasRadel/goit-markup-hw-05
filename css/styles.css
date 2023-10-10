@@ -713,9 +713,9 @@ color: #FFF;
      border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
-.modal-btn:hover,
-.modal-btn:active,
-.modal-btn:focus{
+.modal-btn,.modal-btn-icon:hover,
+.modal-btn,.modal-btn-icon:active,
+.modal-btn,.modal-btn-icon:focus{
     border: none;
     background-color: #404bbf;;
     fill: #ffffff;
@@ -725,12 +725,12 @@ color: #FFF;
      fill: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
-.modal-btn-icon:hover,
+/*.modal-btn-icon:hover,
 .modal-btn-icon:active,
 .modal-btn-icon:focus {
     fill:transparent;
     fill: #ffffff;
-}
+}*/
 
  .modal-title {
      text-align: left;
